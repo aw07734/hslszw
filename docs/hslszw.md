@@ -1,6 +1,6 @@
 ## 目录
 
-实践中务必考虑清楚<font color="red">杂牌</font>和<font color="red">格子</font>
+实践中务必考虑清楚<font color="red">杂牌</font>和<font color="red">格子</font> ~~考虑个锤锤，打了再说！~~
 
 [32斩杀 8费 4杂](#g1)
 
@@ -195,7 +195,7 @@
 |施法|0|6|6||
 |红龙|0|5|7|48|
 
-### 48斩杀  7费 <font id="g8" color="red">3杂+殒命暗影</font>
+### 48斩杀 7费 <font id="g8" color="red">3杂+殒命暗影</font>
 
 |出牌|消耗|手牌数|战场数|remark|
 |:-:|:-:|:-:|:-:|:-:|
