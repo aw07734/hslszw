@@ -104,13 +104,13 @@
 鲨鱼/刀油[1]/刀油/红龙/刀油/施法/红龙
 
 <script>
-    document.onload(function() {
-            Array.from(document.querySelectorAll("a"))
-                .filter(a => !a.ariaLabel)
-                .forEach(a => {
-                    if (a.innerText.indexOf("32斩杀") !== -1) {
-                        a.style.backgroundColor = "aqua"
-                    }
-                })
+    document.addEventListener("DOMContentLoaded", function() {
+        Array.from(document.querySelectorAll("a"))
+            .filter(a => !a.ariaLabel)
+            .forEach(a => {
+                if (a.innerText.indexOf("32斩杀") !== -1) {
+                    a.style.backgroundColor = "aqua"
+                }
+            })
     })
 </script>
