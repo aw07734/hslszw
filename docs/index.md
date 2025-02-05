@@ -1,7 +1,7 @@
 # This is index page
 
-[传统](./hslszw)
+[传统](./hslszw.md)
 
-[鲍勃](./hslszw-bob)
+[鲍勃](./hslszw-bob.md)
 
-[消失](./hslszw-xnui)
+[消失](./hslszw-xnui.md)
