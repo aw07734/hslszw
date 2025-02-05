@@ -104,7 +104,7 @@
     document.addEventListener("DOMContentLoaded", function() {
         Array.from(document.querySelectorAll("a"))
             .forEach(a => {
-                if (a.innerText.indexOf("32斩杀杀") !== -1) {
+                if (a.innerText.indexOf("32斩杀") !== -1) {
                     a.style.backgroundColor = "gold"
                 }
             })
