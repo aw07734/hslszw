@@ -163,14 +163,3 @@
 刀/鱼/刀/牛/刀/水/刀/消
 
 刀/鱼/刀/刀/龙/暗
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        Array.from(document.querySelectorAll("a"))
-            .forEach(a => {
-                if (a.innerText.indexOf("32斩杀") !== -1) {
-                    a.style.backgroundColor = "gold"
-                }
-            })
-    })
-</script>
