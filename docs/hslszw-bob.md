@@ -99,3 +99,16 @@
 鱼[4]/狐[2]/刀/暗/牛/刀[1]/鲍勃[5+]/舞
 
 牛[1]/步(牛)/鱼[1]/刀[1]/刀/龙/暗/龙[1]/龙[1]
+
+<script setup>
+    import { onMounted } from 'vue';
+    onMounted(() => {
+        Array.from(document.querySelectorAll("main a"))
+            .forEach(a => {
+                console.log(a);
+                if (a.innerText.indexOf("32斩杀") !== -1) {
+                    a.style.backgroundColor = "gold"
+                }
+            });
+    });
+</script>

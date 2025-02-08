@@ -140,3 +140,16 @@
 鱼[4]/狐[2]/刀/暗/步(刀)/刀[1]/牛/币[+1]/刀[1]/刀/舞
 
 鱼/刀[1]/刀/龙/刀/暗/龙
+
+<script setup>
+    import { onMounted } from 'vue';
+    onMounted(() => {
+        Array.from(document.querySelectorAll("main a"))
+            .forEach(a => {
+                console.log(a);
+                if (a.innerText.indexOf("32斩杀") !== -1) {
+                    a.style.backgroundColor = "gold"
+                }
+            });
+    });
+</script>

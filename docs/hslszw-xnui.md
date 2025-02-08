@@ -163,3 +163,16 @@
 刀/鱼/刀/牛/刀/水/刀/消
 
 刀/鱼/刀/刀/龙/暗
+
+<script setup>
+    import { onMounted } from 'vue';
+    onMounted(() => {
+        Array.from(document.querySelectorAll("main a"))
+            .forEach(a => {
+                console.log(a);
+                if (a.innerText.indexOf("32斩杀") !== -1) {
+                    a.style.backgroundColor = "gold"
+                }
+            });
+    });
+</script>
