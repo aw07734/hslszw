@@ -8,8 +8,9 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: "传统", link: "/hslszw"},
-      { text: "消失", link: "/hslszw-xnui" }
+      { text: "传统", link: "/hslszw" },
+      { text: "消失", link: "/hslszw-xnui" },
+      { text: "鲍勃", link: "/hslszw-bob" }
     ],
 
     sidebar: mulu,
