@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: 消失版
       link: /hslszw-xnui
+    - theme: alt
+      text: 鲍勃
+      link: /hslszw-bob
 
 features:
   - title: 传统版
