@@ -19,9 +19,15 @@ hero:
 
 features:
   - title: 传统版
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 标准5随，牛——龙，舞，水
+    link: /hslszw
+    linkText: "Go To"
   - title: 鲍勃版
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 标准5随的基础上牛中的水改为bob
+    link: /hslszw-bob
+    linkText: "Go To"
   - title: 消失版
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 标准5随的基础上带上消失
+    link: /hslszw-xnui
+    linkText: "Go To"
 ---
